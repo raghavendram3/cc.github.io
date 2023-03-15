@@ -1,0 +1,5 @@
+- 👋 Hi, I’m Raghavendra;
+- 👀 I’m interested in using computational tools for materials modeling of catalysts;
+- 🌱 I’m currently learning ab initio molecular dynamics;
+- 💞️ I’m looking to collaborate on structural optimization in catalysis;
+- 📫 How to reach me sweetstark1@gmail.com.
