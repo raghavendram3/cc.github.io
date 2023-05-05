@@ -160,11 +160,35 @@
     }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
+  <style>
+      /* Style for the button ribbon */
+      .button-ribbon {
+        display: flex;
+        justify-content: center;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+      }
+      .button-ribbon button {
+        background-color: transparent;
+        color: inherit;
+        border: none;
+        margin: 0 10px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      .button-ribbon button:hover {
+        color: #999;
+      }
+    </style>
 </head>
 <body>
+    <div class="button-ribbon">
+      <button onclick="location.href='index.html';">Home</button>
+      <button onclick="location.href='cv.html';">CV Raghavendra Meena</button>
+      <button onclick="location.href='photography.html';">Photography page</button>
+      <button onclick="location.href='contact.html';">Contact</button>
+    </div>
 <h1 class="unnumbered" id="summary"><br />
 Summary</h1>
 <p>I am a PhD student at Wageningen University &amp; Research in the Netherlands.
