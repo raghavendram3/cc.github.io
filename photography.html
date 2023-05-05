@@ -3,6 +3,27 @@
 <head>
 	<title>Disproportionate Mosaic Tiles</title>
 	<style>
+      /* Style for the button ribbon */
+      .button-ribbon {
+        display: flex;
+        justify-content: center;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+      }
+      .button-ribbon button {
+        background-color: transparent;
+        color: inherit;
+        border: none;
+        margin: 0 10px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      .button-ribbon button:hover {
+        color: #999;
+      }
+    </style>
+	<style>
 		body {
 			margin: 0;
 			padding: 0;
@@ -30,6 +51,13 @@
 	</style>
 </head>
 <body>
+	<div class="button-ribbon">
+      	<button onclick="location.href='index.html';">Home</button>
+      	<button onclick="location.href='cv.html';">CV Raghavendra Meena</button>
+      	<button onclick="location.href='photography.html';">Photography page</button>
+      	<button onclick="location.href='contact.html';">Contact</button>
+    	</div>
+	
 	<img src="IMG-20230328-WA0001.jpg">
 	<img src="IMG_20210831_180425.jpg">
 	<img src="IMG_20210904_204541.jpg">
