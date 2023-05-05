@@ -28,8 +28,36 @@
         margin: 20px 0;
       }
     </style>
+     <style>
+      /* Style for the button ribbon */
+      .button-ribbon {
+        display: flex;
+        justify-content: center;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+      }
+      .button-ribbon button {
+        background-color: transparent;
+        color: inherit;
+        border: none;
+        margin: 0 10px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      .button-ribbon button:hover {
+        color: #999;
+      }
+    </style>
   </head>
   <body>
+    <div class="button-ribbon">
+      <button onclick="https://github.com/raghavendram3/home/';">Home</button>
+      <button onclick="https://github.com/raghavendram3/about-me/';">About</button>
+      <button onclick="https://github.com/raghavendram3/photography/';">Services</button>
+      <button onclick="location.href='contact.html';">Contact</button>
+    </div>
+
     <div class="container">
       <h1> Welcome to my page! </h1>
       <p> This page belongs to Raghavendra Meena, PhD candidate at Wageningen University & Research <br>raghavendra.meena@wur.nl<br>+31(0) 623105600 </p>
