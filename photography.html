@@ -1,17 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <div class="container text-center">
-      <div class="masthead"><div class="masthead__inner-wrap">
-      <div class="masthead__menu"><nav id="site-nav" class="greedy-nav">
-        <ul class="visible-links">
-          <button class="masthead__menu-item"><a href='index.html';">Home</a></button>
-          <button class="masthead__menu-item"><a href='cv.html';">CV Raghavendra Meena</a></button>
-          <button class="masthead__menu-item"><a href='photography.html';">Photographs collection</a></button>
-          <button class="masthead__menu-item"><a href="mailto:raghavendra.meena@wur.nl";>Contact</a></button>
-          <button class="masthead__menu-item"><a href="https://academicpages.github.io/year-archive/">Blog Posts</a></button>
-          <button class="masthead__menu-item"><a href="https://academicpages.github.io/cv/">Miscellaneous</a></button>
-        <ul class="hidden-links hidden"></ul></nav></div></div></div>
 	<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9H2Z1YND1G"></script>
 <script>
@@ -23,17 +12,54 @@
 </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photography</title>
+    <title>Photography page</title>
     <style>
-        .button-ribbon {
-        justify-content: center; /* Center horizontally */
-        align-items: center; /* Center vertically */
-    }
+        /* Add your custom CSS styles here */
+        /* ... */
     </style>
     <!-- Include a CSS framework like Bootstrap for advanced styling -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    </style>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			align-items: center;
+			height: 100vh;
+			background-color: #f1f1f1;
+		}
+
+		img {
+			object-fit: cover;
+			width: 100%;
+			height: 100%;
+			filter: none;
+			opacity: 0.8;
+			transition: all 0.3s ease-in-out;
+		}
+
+		img:hover {
+			transform: scale(1.1);
+			opacity: 1;
+		}
+	</style>
 </head>
 <body>
+    <div class="container text-center">
+	<div class="masthead"><div class="masthead__inner-wrap">
+      <div class="masthead__menu"><nav id="site-nav" class="greedy-nav">
+        <ul class="visible-links"><li class="masthead__menu-item masthead__menu-item--lg">
+          <a href="https://academicpages.github.io/">Your Name / Site Title</a></li>
+          <li class="masthead__menu-item"><a href='index.html';">Home</a></li>
+          <li class="masthead__menu-item"><a href='cv.html';">CV Raghavendra Meena</a></li>
+          <li class="masthead__menu-item"><a href='photography.html';">Photographs collection</a></li>
+          <li class="masthead__menu-item"><a href="mailto:raghavendra.meena@wur.nl";>Contact</a></li>
+          <li class="masthead__menu-item"><a href="https://academicpages.github.io/year-archive/">Blog Posts</a></li>
+          <li class="masthead__menu-item"><a href="https://academicpages.github.io/cv/">Miscellaneous</a></li>
+        <ul class="hidden-links hidden"></ul></nav></div></div></div>
 	<img src="IMG_20210831_180425.jpg">
 	<img src="IMG_20210904_204541.jpg">
 	<img src="H1.jpg">
