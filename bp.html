@@ -15,6 +15,14 @@
       align-items: center; /* Center vertically */
     }
 
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: white;
+      opacity: 1;
+    }
+
     h1 {
       text-align: center;
       font-size: 3rem;
@@ -67,6 +75,26 @@
         <a href="https://www.github.com/raghavendram3" class="fa fa-github"></a>
         <a href="https://www.twitter.com/sweetstark00" class="fa fa-twitter"></a>
       </p>
+
+      <!-- Navigation Buttons -->
+      <div class="masthead">
+        <div class="masthead__inner-wrap">
+          <div class="masthead__menu">
+            <nav id="site-nav" class="greedy-nav">
+              <ul class="visible-links">
+                <button class="masthead__menu-item"><a href='index.html';">Home</a></button>
+                <button class="masthead__menu-item"><a href='cv.html';">CV Raghavendra Meena</a></button>
+                <button class="masthead__menu-item"><a href='photography.html';">Photographs collection</a></button>
+                <button class="masthead__menu-item"><a href="mailto:raghavendra.meena@wur.nl";>Contact</a></button>
+                <button class="masthead__menu-item"><a href="https://academicpages.github.io/year-archive/">Blog Posts</a></button>
+                <button class="masthead__menu-item"><a href="https://literallyscience.nl/raghavm3.github.io/cv/">Miscellaneous</a></button>
+              </ul>
+              <ul class="hidden-links hidden"></ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
       <p>Hi👋! My name is Raghavendra (RV), a fourth-year PhD candidate at Wageningen University & Research. I wanted
         to build a website to put forward my thoughts in the form of text and pictures about my research work on sustainable
         energy solutions, showcase the photographs of beautiful places I have visited, pretty 3-D images rendered by me in
@@ -87,9 +115,9 @@
   </header>
 
   <footer class="bg-dark text-white text-center py-3">
-  	<div class="container text-center">
-      		<p>&copy; 2023 Raghavendra Meena</p>
-	</div>
+    <div class="container">
+      <p>&copy; 2023 Raghavendra Meena</p>
+    </div>
   </footer>
 
   <!-- Include JavaScript frameworks -->
